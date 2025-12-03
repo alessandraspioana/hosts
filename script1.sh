@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Baciu Vlad-Robert"
+
 valid_ipv4() {
     local ip="$1"
     if [[ ! "$ip" =~ ^([0-9]{1,3}\.){3}[0-9]{1,3}$ ]]; then return 1; fi
